@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏢 Employee Registartion </title>
+</head>
+<body>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background-color: white; 
+            font-family: Consolas, serif;
+         } 
+        #el{
+            padding: 32px;
+            width: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .btn-new-emp{
+            padding: 0px 24px;
+            font-size: medium;
+            
+        }
+        .tile{
+            margin: 12px 48px;
+            padding: 12px 32px;
+            font-size: 24px;
+            font-weight: 500;   
+            border-radius: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .tile:hover{
+            background: rgb(251, 200, 235);
+            transition: 0.4s ease-out;
+        }
+        .name, .tech, .list {
+            /* height: 60px; */
+            background: transparent; 
+        }
+        img{
+            background: transparent;
+            height: 24px;
+            width: 24px;
+        }
+
+    </style>
+    
+    <div id="el">
+            <h1>Employee Listing</h1>
+            <button class="btn-new-emp"><a href="newEmployee.html">Create Employee</a></button>
+    </div>
+    <br>
+    <ul>
+        <div class="tile">
+            <p class="name">Ahmed</p>
+            <ul class="list">
+                <img src="https://img.icons8.com/color/48/000000/python--v1.png"/>
+                <img src="https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png"/>
+                <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png"/>
+            </ul>
+        </div>
+        <div class="tile">
+            <p class="name">Ahmed</p>
+            <ul class="list">
+                <img src="https://img.icons8.com/color/48/000000/python--v1.png"/>
+                <img src="https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png"/>
+                <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png"/>
+            </ul>
+        </div>
+    </ul>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>

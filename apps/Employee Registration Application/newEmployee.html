@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏢 Employee Registartion </title>
+</head>
+<body>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background-color: white; 
+            font-family: Consolas, serif;
+            
+         } 
+         .form{
+            display: flex;
+            justify-content: center;
+         }
+         .form_field_val{
+            display: flex;
+            flex-direction: column;
+            margin: 24px 32px;
+         }
+         .snd{
+            margin: 32px 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         }
+         .technologies{
+            width: 42rem;
+            flex-direction: row;
+         }
+         h3{
+            padding: 12px 0px;
+            display: flex;
+         }
+         input{
+            height: 40px;
+            width: 42rem;
+            padding: 0px 1rem;
+         }
+         input:where([type="checkbox"]) {
+            width: 12px;
+            height: 12px;
+         }
+         .btn-register {
+            padding: 12px 24px;
+            font-size: medium;
+         }
+         .btn-register:hover {
+            background: black;
+            color: white;
+         }
+         .button{
+            display: flex;
+            justify-content: center;
+         }
+    </style>
+
+    <div class="form">
+        <form action="" class="form_field_val" name="from1">
+            <h3>name</h3>
+            <input type="text" name="emp_name" id="e_name" alt="">
+
+            <h3>Age</h3>
+            <input type="number" name="emp_age" id="e_age" maxlength="2">
+
+            <h3>Full Address</h3>
+            <input type="text" name="emp_f_address" id="e_f_address">
+
+            <h3>Years of Experience</h3>
+            <input type="number" name="emp_experience" maxlength="2" id="e_experience">
+
+        </form>
+
+    </div>
+    <div class="snd">
+                    <!-- Technologies -->
+                    <h3>Technologies</h3>
+            <form action="" class="technologies" name="form2">
+                <input class="checkbox" type="checkbox" name="emp_cnic" id="t_html" value="HTML">
+                <label for="t_html">HTML</label>
+                <input class="checkbox" type="checkbox" name="emp_cnic" id="t_css" value="CSS">
+                <label for="t_css">CSS</label>
+                <input class="checkbox" type="checkbox" name="emp_cnic" id="t_javascript" value="JAVASCRIPT">
+                <label for="t_javascript">JAVASCRIPT</label>
+                <input class="checkbox" type="checkbox" name="emp_cnic" id="t_python" value="PYTHON">
+                <label for="t_python">PYTHON</label>
+                <input class="checkbox" type="checkbox" name="emp_cnic" id="t_ai" value="ADOBE ILLUSTRATOR">
+                <label for="t_ai">ADOBE ILLUSTRATOR</label>
+                <input class="checkbox" type="checkbox" name="emp_cnic" id="t_ps" value="ADOBE PHOTOSHOP">
+                <label for="t_ps">ADOBE PHOTOSHOP</label>
+                <input class="checkbox" type="checkbox" name="emp_cnic" id="t_id" value="ADOBE INDESIGN">
+                <label for="t_id">ADOBE INDESIGN</label>
+            </form>
+    </div>
+
+    <div class="button">
+        <button type="submit" class="btn-register" id="submit_emp">Register</button>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

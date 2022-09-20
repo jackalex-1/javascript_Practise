@@ -1,3 +1,5 @@
 This Folder contains javascript application made for practise.
 
 1. Bank application 🏦
+2. Searhing From an Array 📚
+3. Employee Registartion application 🏢 (incomplete)
